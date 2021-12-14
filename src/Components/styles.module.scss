@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    button {
+        background-color: #242424;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        svg {
+            width: 10px;
+        }
+    }
+
+    button[disabled] {
+        background-color: #474747;
+        cursor: no-drop;
+    }
+
+    input {
+        height: 30px;
+        width: 50px;
+        text-align: center;
+        border: 1px solid #242424;
+        border-radius: 3px;
+    }
+}
